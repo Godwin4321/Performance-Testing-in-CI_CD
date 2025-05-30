@@ -31,6 +31,4 @@ jobs:
       - name: Run Pytest
         run: |
           source venv/bin/activate
-          pytest -v   # The reason you're activating the virtual environment again before 
-          running pytest -v is because each run: block in GitHub Actions is executed in a 
-          new shell session.
+          pytest -v 
